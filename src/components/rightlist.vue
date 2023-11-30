@@ -12,11 +12,11 @@
           alt=""
         />
         <h1 v-if="this.$store.state.themeObj.user_start != 0">
-          <span>请别再呼唤我为孤独之人</span>
+          <span>请呼唤我为学习之人</span>
         </h1>
       </div>
       <div class="r1-body">
-        <p>三更</p>
+        <p>Kizuna</p>
         <div class="catch-me">
           <div class="">
             <el-tooltip class="item" content="Github" placement="top">
@@ -29,7 +29,7 @@
                 ><i class="fa fa-fw fa-qq"></i
               ></a>
             </el-tooltip>
-            <el-tooltip
+<!--            <el-tooltip
               class="item"
               effect="dark"
               content="微博"
@@ -38,10 +38,10 @@
               <a :href="catchMeObj.sina" target="_blank"
                 ><i class="fa fa-fw fa-weibo"></i
               ></a>
-            </el-tooltip>
+            </el-tooltip>-->
           </div>
           <div class="">
-            <el-tooltip
+<!--            <el-tooltip
               class="item"
               effect="dark"
               content="微信"
@@ -50,15 +50,15 @@
               <a :href="catchMeObj.wechat" target="_blank"
                 ><i class="fa fa-fw fa-wechat"></i
               ></a>
-            </el-tooltip>
-            <el-tooltip
+            </el-tooltip>-->
+<!--            <el-tooltip
               class="item"
               effect="dark"
               content="CSDN"
               placement="top"
             >
               <a :href="catchMeObj.csdn" target="_blank"><i class="">C</i></a>
-            </el-tooltip>
+            </el-tooltip>-->
           </div>
         </div>
       </div>
@@ -121,7 +121,7 @@ export default {
       artCommentList: "", //最新评论
       catchMeObj: {
         //个人信息
-        git: "https://gitee.com",
+        git: "https://github.com/JkeyLove",
         qq: "/static/img/qq.png",
         sina: "https://weibo.com",
         wechat: "/static/img/qq.jpg",
