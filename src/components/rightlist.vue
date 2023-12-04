@@ -7,12 +7,12 @@
           :src="
             this.$store.state.themeObj.center_smailimg
               ? this.$store.state.themeObj.center_smailimg
-              : 'static/img/img01.jpg'
+              : 'http://cdn.hellokizunaai.xyz/bolg/img01.jpg'
           "
           alt=""
         />
         <h1 v-if="this.$store.state.themeObj.user_start != 0">
-          <span>请呼唤我为学习之人</span>
+<!--          <span>请呼唤我为学习之人</span>-->
         </h1>
       </div>
       <div class="r1-body">

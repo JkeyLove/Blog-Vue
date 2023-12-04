@@ -36,13 +36,13 @@
 			</el-col>
 		</el-row>
 	</div>
-	<div class="headImgBox" :style="{backgroundImage:this.$store.state.themeObj.top_image?'url('+this.$store.state.themeObj.top_image+')':'url(static/img/headbg05.jpg)'}">
+	<div class="headImgBox" :style="{backgroundImage:this.$store.state.themeObj.top_image?'url('+this.$store.state.themeObj.top_image+')':'url(http://cdn.hellokizunaai.xyz/bolg/headbg05.jpg)'}">
 		<div class="scene">
 			<div><span id="luke"></span></div>
 		</div>
 		<div class="h-information">
 
-                    <img :src="this.$store.state.themeObj.head_portrait?this.$store.state.themeObj.head_portrait:'static/img/tou.png'" alt="">
+                    <img :src="this.$store.state.themeObj.head_portrait?this.$store.state.themeObj.head_portrait:'http://cdn.hellokizunaai.xyz/bolg/tou.png'" alt="">
 
 			<h2 class="h-description">
 
@@ -71,7 +71,7 @@ export default {
 			pMenu: true, //手机端菜单打开
 			// path:'',//当前打开页面的路径
 			input: '', //input输入内容
-			headBg: 'url(static/img/headbg05.jpg)', //头部背景图
+			headBg: 'url(http://cdn.hellokizunaai.xyz/bolg/headbg05.jpg)', //头部背景图
 			headTou: '', //头像
 			projectList: '' //项目列表
 		}
